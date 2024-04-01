@@ -1,6 +1,6 @@
 import Button from '../components/Button/Button.jsx';
 import NavBar from './../components/NavBar.jsx';
-
+import maPhoto from './../assets/Elisabeth.png';
 export default function Accueil() {
   return (
     <>
@@ -8,11 +8,15 @@ export default function Accueil() {
       <section className=''>
         <div className=' flex flex-col items-start justify-center gap-4 w-4/5 m-auto py-10 text-first-1000'>
           <h2 className='text-3xl  font-Alice'>Éveillez votre confiance intérieure, cultivez la positivité et explorez votre chemin de vie spirituel.</h2>
-          <p className='font-Montaga '>- Soin holistique</p>
-          <Button />
+          <p className='font-Montaga'>- Soin holistique</p>
+          <Button  />
+          <div className='flex justify-end items-end w-full'>
+          <img className='h-44 rounded-full bg-first-1000' src={maPhoto} alt="Elisabeth" />
+          </div>
+          
         </div>
       </section>
-      <section className=" bg-third-1000">
+      <section className=" bg-third-1000 mt-[-120px] py-8">
         <div className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-16 text-white-1000'>
           <h2 className="text-6xl font-Ephesis">Bienvenue</h2>
           <p className="text-center text-xl font-Alice  ">Je suis Élisabeth votre <span className='font-bold'>coach holistique</span> . Je m&apos;engage à vous guider vers une vie plus <span className='font-bold'>harmonieuse</span> et <span className='font-bold'>épanouissante</span>, au travers d&apos;approches <span className='font-bold'>personnalisées</span> et des outils conçus pour libérer votre plein <span className='font-bold'>potentiel</span>.</p>
