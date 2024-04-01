@@ -26,7 +26,7 @@ export default function NavBar() {
     <header onClick={(e) => e.stopPropagation()} className="font-Montaga flex flex-col items-center justify-center gap-4 relative bg-first-1000 w-full text-white-1000 py-6">
       <div className='flex flex-col items-center'>
       <GiEyeOfHorus style={{color: "#FCF6EF"}} size={30} />
-      <h1 className='text-white-1000 text-3xl font-Montaga'>Elisabeth</h1>
+      <h1 className='text-white-1000 text-3xl font-Montaga'>Élisabeth</h1>
       </div>
       <div className='relative w-full flex flex-col items-center justify-center'>
         <button onClick={(e) => { e.stopPropagation(); setIsOpen(!isOpen); }} className='relative bg-second-1000 text-slate-200 flex flex-col justify-between items-center px-2 py-1 rounded w-4/5'>
