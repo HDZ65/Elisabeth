@@ -18,7 +18,7 @@ export default function Accueil() {
       <section className=" bg-third-1000 py-8">
         <div className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-16 text-white-1000'>
           <h2 className="text-6xl font-Ephesis">Bienvenue</h2>
-          <p className="text-center text-xl font-Alice">Je suis Élisabeth votre <span className='font-bold'>coach holistique</span> . Je m&apos;engage à vous guider vers une vie plus <span className='font-bold'>harmonieuse</span> et <span className='font-bold'>épanouissante</span>, au travers d&apos;approches <span className='font-bold'>personnalisées</span> et des outils conçus pour libérer votre plein <span className='font-bold'>potentiel</span>.</p>
+          <p className="text-center text-xl font-Alice">Je suis Élisabeth votre <span className='font-bold'>coach holistique</span> . Je m&apos;engage à vous guider vers une vie plus <span className='font-bold'>harmonieuse</span> et <span className='font-bold'>épanouissante</span>, au travers d&apos;approches <span className='font-bold'>personnalisées</span> et des outils conçus pour libérer votre <span className='font-bold'>plein potentiel</span>.</p>
           <p>~</p>
           <p className="text-center text-xl font-Alice "><span className='font-bold'>Réservez</span> dès aujourd&apos;hui un premier appel afin d&apos;évaluer ensemble vos besoins et définir le chemin vers votre <span className='font-bold'>transformation personnelle</span></p>
         </div>
@@ -42,7 +42,7 @@ export default function Accueil() {
       </section>
 
       <section className='flex flex-col justify-center items-center bg-third-1000'>
-        <article className='flex flex-col items-center justify-center gap-8 w-4/5 m-auto py-8 text-black-1000'>
+        <article className='flex flex-col items-center justify-center gap-8 w-4/5 m-auto py-8 text-white-1000'>
           <img className='h-44 rounded-full bg-second-1000 ' src={maPhoto} alt="Elisabeth" />
           <h2 className="text-6xl font-Ephesis">Un peu de moi</h2>
           <p className="text-center text-xl font-Alice">Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>

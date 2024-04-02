@@ -36,7 +36,7 @@ export default function NavBar() {
           </div>
           <nav className={`${isOpen ? 'max-h-96' : 'max-h-0'} transition-all duration-1000 ease-in-out origin-top text-start absolute top-14  w-full bg-first-1000 overflow-hidden text-white-1000`}>
             <Link to="/" className="block px-4 py-2 border-b border-second-1000">Accueil</Link>
-            <Link to="/Services" className="block px-4 py-2 border-b border-second-1000">Services</Link>
+            <Link to="/Services" className="block px-4 py-2 border-b border-second-1000">Coaching</Link>
             <Link to="/E-book" className="block px-4 py-2 border-b border-second-1000">E-book</Link>
             <Link to="/Contact" className="block px-4 py-2  ">Contact</Link>
           </nav>
