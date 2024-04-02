@@ -15,7 +15,7 @@ export default function Accueil() {
           <Button texte={"Je prends RDV"} />
         </div>
       </section>
-      <section className=" bg-third-1000 py-8">
+      <section className=" bg-third-1000">
         <div className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-16 text-white-1000'>
           <h2 className="text-6xl font-Ephesis">Bienvenue</h2>
           <p className="text-center text-xl font-Alice">Je suis Élisabeth votre <span className='font-bold'>coach holistique</span> . Je m&apos;engage à vous guider vers une vie plus <span className='font-bold'>harmonieuse</span> et <span className='font-bold'>épanouissante</span>, au travers d&apos;approches <span className='font-bold'>personnalisées</span> et des outils conçus pour libérer votre <span className='font-bold'>plein potentiel</span>.</p>
@@ -23,7 +23,7 @@ export default function Accueil() {
       </section>
 
       <section className=''>
-        <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-8 text-black-1000'>
+        <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-16 text-black-1000'>
           <h2 className="text-6xl font-Ephesis">Découvrez</h2>
           <h3 className=' text-2xl font-Alice mb-8 '>Mes accompagnements</h3>
           <h4 className=' text-2xl font-Montaga underline'>Coaching individuel</h4>
