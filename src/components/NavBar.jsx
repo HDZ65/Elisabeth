@@ -15,10 +15,12 @@ export default function NavBar() {
 
     if (isOpen) {
       window.addEventListener('click', closeNavbar);
+      window.addEventListener('scroll', closeNavbar);
     }
 
     return () => {
       window.removeEventListener('click', closeNavbar);
+      window.removeEventListener('scroll', closeNavbar);
     };
   }, [isOpen]);
 

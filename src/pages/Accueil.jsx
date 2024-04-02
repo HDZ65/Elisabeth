@@ -12,7 +12,7 @@ export default function Accueil() {
         <div className=' flex flex-col items-start justify-center gap-4 w-4/5 m-auto py-10 text-first-1000'>
           <h2 className='text-3xl  font-Alice'>Éveillez votre confiance intérieure, cultivez la positivité et explorez votre chemin de vie spirituel.</h2>
           <p className='font-Montaga'>- Soin holistique</p>
-          <Button texte={"Je prends RDV"} />
+          <Button couleur={'bg-first-1000 text-white-1000'} texte={"Je prends RDV"} />
         </div>
       </section>
       <section className=" bg-third-1000">
@@ -44,7 +44,7 @@ export default function Accueil() {
           <img className='h-44 rounded-full bg-second-1000 ' src={maPhoto} alt="Elisabeth" />
           <h2 className="text-6xl font-Ephesis">Un peu de moi</h2>
           <p className="text-center text-xl font-Alice">Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
-          <Button texte={"Découvrez mon parcours"} />
+          <Button couleur={'bg-white-1000 text-first-1000'} texte={"Découvrez mon parcours"} />
         </article>
       </section>
 
@@ -59,7 +59,7 @@ export default function Accueil() {
               sx={{ height: 140, width: 300 }}
               src={article.image} alt="photo" description={article.description}
             >
-              <Button texte={"Lire l'article"} />
+              <Button texte={"Lire l'article"} couleur={'bg-white-1000 text-first-1000'} />
             </CardCompenent>
           ))}
         </article>
