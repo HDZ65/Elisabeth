@@ -1,19 +1,21 @@
+import img1 from '../assets/imgArticle.png';
+
 export const articleData = [
     {
         id: 1,
-        image: 'src/assets/imgArticle.png',
+        image: img1,
         titleCard: 'Zen',
         description: 'Description'
     },
     {
         id: 2,
-        image: 'src/assets/imgArticle.png',
+        image: img1,
         titleCard: 'Zen',
         description: 'Description'
     },
     {
         id: 3,
-        image: 'src/assets/imgArticle.png',
+        image: img1,
         titleCard: 'Zen',
         description: 'Description'
     },
