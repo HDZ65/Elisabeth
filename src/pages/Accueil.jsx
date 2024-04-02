@@ -22,19 +22,19 @@ export default function Accueil() {
         </div>
       </section>
 
-      <section className=''>
-        <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-16 text-black-1000'>
+      <section className='flex flex-col  items-center justify-center gap-4 w-4/5 m-auto py-10 text-first-1000'>
           <h2 className="text-6xl font-Ephesis">Découvrez</h2>
-          <h3 className=' text-2xl font-Alice mb-8 '>Mes accompagnements</h3>
-          <h4 className=' text-2xl font-Montaga underline'>Coaching individuel</h4>
+          <h3 className=' text-xl font-Alice mb-8 text-black-1000'>Mes accompagnements</h3>
+        <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto pb-8 text-black-1000'>
+          <h4 className=' text-2xl font-Montaga underline text-first-1000'>Coaching individuel</h4>
           <p className='text-center'>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
         </article>
         <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto pb-8 text-black-1000'>
-          <h4 className=' text-2xl font-Montaga underline'>Coaching individuel</h4>
+          <h4 className=' text-2xl font-Montaga underline text-first-1000'>Coaching individuel</h4>
           <p className='text-center'>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
         </article>
         <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto pb-8 text-black-1000'>
-          <h4 className=' text-2xl font-Montaga underline'>Coaching individuel</h4>
+          <h4 className=' text-2xl font-Montaga underline text-first-1000'>Coaching individuel</h4>
           <p className='text-center'>Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.</p>
         </article>
       </section>
@@ -50,7 +50,7 @@ export default function Accueil() {
 
       <section className=''>
         <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-16 text-black-1000'>
-          <h2 className="text-6xl font-Ephesis">Le blog</h2>
+          <h2 className="text-6xl font-Ephesis text-first-1000">Le blog</h2>
           <h3 className=' text-2xl font-Alice mb-8 '>Les derniers articles</h3>
           {articleData.map((article) => (
             <CardCompenent
