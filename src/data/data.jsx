@@ -7,16 +7,4 @@ export const articleData = [
         titleCard: 'Zen',
         description: 'Description'
     },
-    {
-        id: 2,
-        image: img1,
-        titleCard: 'Zen',
-        description: 'Description'
-    },
-    {
-        id: 3,
-        image: img1,
-        titleCard: 'Zen',
-        description: 'Description'
-    },
 ]
