@@ -23,7 +23,7 @@ export default function Accueil() {
       </section>
 
       <section className=''>
-        <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-16 text-black-1000'>
+        <article className='flex flex-col items-center justify-center gap-4 w-4/5 m-auto py-8 text-black-1000'>
           <h2 className="text-6xl font-Ephesis">Découvrez</h2>
           <h3 className=' text-2xl font-Alice mb-8 '>Mes accompagnements</h3>
           <h4 className=' text-2xl font-Montaga underline'>Coaching individuel</h4>
