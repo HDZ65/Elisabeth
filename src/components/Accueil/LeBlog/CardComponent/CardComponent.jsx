@@ -4,9 +4,10 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActions } from '@mui/material';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 
-export default function CardCompenent({ textCard, description, children, ...props }) {
+const CardComponent = React.memo( function CardComponent({ textCard, description, children, ...props }) {
   return (
     <Card sx={{maxWidth: 300}}
     >
@@ -30,10 +31,13 @@ export default function CardCompenent({ textCard, description, children, ...prop
       </CardActions>
     </Card>
   )
-}
+})
 
-CardCompenent.propTypes = {
+CardComponent.propTypes = {
   textCard: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
+
+export default CardComponent;
+

@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 
-function Button({ texte, couleur }) {
-    return (
-        <button className={`${couleur} font-Montaga  rounded px-5 py-2 md:hover:bg-third-1000`}>
-            {texte}
-        </button>
-    )
-}
+const Button = React.memo(({ couleur, texte }) => {
+  return (
+    <button className={`py-2 px-4 ${couleur}`}>{texte}</button>
+  );
+});
+
+Button.displayName = 'Button';
+
+export default Button;
 
 Button.propTypes = {
     texte: PropTypes.string.isRequired,
     couleur: PropTypes.string,
 };
-
-export default Button;
