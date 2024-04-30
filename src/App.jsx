@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React  from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 
@@ -11,7 +11,6 @@ const Contact = React.lazy(() => import("./pages/Contact"));
 function App() {
   return (
     <Router>
-      <Suspense fallback={<div>Chargement...</div>}>
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/coaching" element={<Coaching />} />
@@ -19,7 +18,6 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Suspense>
     </Router>
   );
 }
