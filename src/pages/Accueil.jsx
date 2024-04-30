@@ -1,14 +1,13 @@
 // import imgHolistique from './../assets/holistique.jpg';
-import React from 'react';
-const lazyImport = (path) => React.lazy(() => import(`${path}`));
 
-const Button = lazyImport('../components/Button/Button.jsx');
-const Header = lazyImport('../components/Header/Header.jsx');
-const Bienvenue = lazyImport('../components/Accueil/Bienvenue/Bienvenue.jsx');
-const Decouvrez = lazyImport('../components/Accueil/Decouvrez/Decouvrez.jsx');
-const LeBlog = lazyImport('../components/Accueil/LeBlog/LeBlog');
-const UnPeuDeMoi = lazyImport('../components/Accueil/UnPeuDeMoi/UnPeuDeMoi');
 
+// Importations directes des composants
+import Button from '../components/Button/Button.jsx';
+import Header from '../components/Header/Header.jsx';
+import Bienvenue from '../components/Accueil/Bienvenue/Bienvenue.jsx';
+import Decouvrez from '../components/Accueil/Decouvrez/Decouvrez.jsx';
+import LeBlog from '../components/Accueil/LeBlog/LeBlog';
+import UnPeuDeMoi from '../components/Accueil/UnPeuDeMoi/UnPeuDeMoi';
 
 import Footer from '../components/Footer/Footer.jsx';
 
@@ -22,15 +21,12 @@ const AccueilHolistique = () => (
     {/* <article className='hidden md:flex justify-center items-center w-1/2 '>
         <img className='size-96 object-cover' src={imgHolistique} alt="soin holistique" />
       </article> */}
-
-
   </section>
 );
 
 export default function Accueil() {
   return (
     <>
-
       <div>
         <Header />
         <main className='flex flex-col justify-between '>
