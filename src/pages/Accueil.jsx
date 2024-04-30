@@ -8,7 +8,7 @@ const Bienvenue = lazyImport('../components/Accueil/Bienvenue/Bienvenue.jsx');
 const Decouvrez = lazyImport('../components/Accueil/Decouvrez/Decouvrez.jsx');
 const LeBlog = lazyImport('../components/Accueil/LeBlog/LeBlog');
 const UnPeuDeMoi = lazyImport('../components/Accueil/UnPeuDeMoi/UnPeuDeMoi');
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 import Footer from '../components/Footer/Footer.jsx';
 
@@ -30,12 +30,7 @@ const AccueilHolistique = () => (
 export default function Accueil() {
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>Élisabeth coach holistique</title>
-          <meta name="description" content="Éveillez votre confiance intérieure, cultivez la positivité et explorez votre chemin de vie spirituel." />
-        </Helmet>
-      </HelmetProvider>
+
       <div>
         <Header />
         <main className='flex flex-col justify-between '>

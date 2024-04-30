@@ -1,16 +1,10 @@
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 export default function Coaching() {
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>Coaching holistique</title>
-          <meta name="description" content="Profitez d&apos;un accompagnement holistique personnalisé avec notre coaching dédié à révéler votre potentiel et vous aider à atteindre vos objectifs de vie. Découvrez une approche profonde et sur mesure pour votre développement personnel." />
-        </Helmet>
-      </HelmetProvider>
+
       <div>
         <Header />
         <section className="flex flex-col gap-2 px-6 py-4">
